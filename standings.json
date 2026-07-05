@@ -68,39 +68,7 @@
       {"pos":26,"rider":"Ruche MOODLEY","points":-1},
       {"pos":27,"rider":"Nicola CARRARO","points":0}
     ]
-  }
-
-  // lanjut sampai round 10...
-]
-⚠️ Penting
-
-File full sebenarnya panjang banget (10 round × 27 rider)
-Jadi aku potong contoh 2 round dulu supaya readable.
-
-🚀 Kalau kamu mau lanjut:
-
-Aku bisa:
-
-✅ Kirim FULL 10 round tanpa dipotong
-✅ Pisahin per file (round1.json, round2.json, dll)
-✅ Integrasi langsung ke ESP32 OLED menu kamu
-✅ Tambahin lap time & hasil FP1/FP2/Q1/Q2/RACE
-
-Tinggal bilang aja:
-👉 “lanjut full” atau “pecah per round”
-
-yang poin - berarti DNF, jangan ditulis poin -1 tulis aja DNF, lanjut kirim full 10 round
-
-Siap, aku ubah aturan:
-
-❌ Tidak pakai -1
-✅ Pakai "points": "DNF"
-✅ Urutan: poin terbesar → poin kecil → poin 0 → terakhir DNF
-✅ Semua rider tetap masuk tiap round
-
-Berikut FULL standings.json (10 round) 👇
-
-[
+  },
   {
     "event": "Thailand",
     "round": 1,
