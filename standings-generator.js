@@ -1,6 +1,6 @@
 const fs = require("fs-extra");
 
-// List Rider Moto3 2026 (dari gambar kamu)
+// List Rider Moto3 2026
 const results = [
   { pos: "1", rider: "Edie O'Shea" },
   { pos: "2", rider: "Joel Kelso" },
@@ -28,7 +28,6 @@ const results = [
   { pos: "24", rider: "Álvaro Carpe" },
   { pos: "25", rider: "Rico Salmela" },
   { pos: "26", rider: "Valentin Perrone" }
-  // Tambahkan rider lain kalau ada
 ];
 
 const pointsMap = [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
@@ -39,9 +38,7 @@ results.forEach(r => {
   const pos = parseInt(r.pos);
   if (isNaN(pos)) return;
 
-  if (!standings[r.rider]) {
-    standings[r.rider] = 0;
-  }
+  if (!standings[r.rider]) standings[r.rider] = 0;
   if (pos >= 1 && pos <= 15) {
     standings[r.rider] += pointsMap[pos - 1];
   }
@@ -56,4 +53,4 @@ const output = Object.keys(standings)
   .sort((a, b) => a.pos - b.pos);
 
 fs.writeJsonSync("./standings.json", output, { spaces: 2 });
-console.log("✅ Standings.json berhasil dibuat dengan", output.length, "pembalap Moto3");
+console.log(`✅ Standings berhasil dibuat (${output.length} rider)`);
