@@ -26,11 +26,11 @@
       {"pos":21,"rider":"Zen MITANI","points":0},
       {"pos":22,"rider":"Ruche MOODLEY","points":0},
       {"pos":23,"rider":"Nicola CARRARO","points":0},
-      {"pos":24,"rider":"Matteo BERTELLE","points":DNF},
-      {"pos":25,"rider":"Adrian FERNANDEZ","points":DNF},
-      {"pos":26,"rider":"Marcos URIARTE","points":DNF},
-      {"pos":27,"rider":"Leo RAMMERSDORFER","points":DNF},
-      {"pos":28,"rider":"Cormac BUCHANAN","points":DNF}
+      {"pos":24,"rider":"Matteo BERTELLE","points":"DNF"},
+      {"pos":25,"rider":"Adrian FERNANDEZ","points":"DNF"},
+      {"pos":26,"rider":"Marcos URIARTE","points":"DNF"},
+      {"pos":27,"rider":"Leo RAMMERSDORFER","points":"DNF"},
+      {"pos":28,"rider":"Cormac BUCHANAN","points":"DNF"}
     ]
   },
 
@@ -55,16 +55,16 @@
       {"pos":15,"rider":"Zen MITANI","points":1},
       {"pos":16,"rider":"Cormac BUCHANAN","points":0},
       {"pos":17,"rider":"Nicola CARRARO","points":0}
-      {"pos":18,"rider":"David ALMANSA","points":DNF},
-      {"pos":19,"rider":"David MUÑOZ","points":DNF},
+      {"pos":18,"rider":"David ALMANSA","points":"DNF"},
+      {"pos":19,"rider":"David MUÑOZ","points":"DNF"},
       {"pos":20,"rider":"Scott OGDEN","points":3},
-      {"pos":21,"rider":"Joel ESTEBAN","points":DNF},
-      {"pos":22,"rider":"Matteo BERTELLE","points":DNF},
-      {"pos":23,"rider":"Jesus RIOS","points":DNF},
-      {"pos":24,"rider":"Adrian FERNANDEZ","points":DNF},
-      {"pos":25,"rider":"Marcos URIARTE","points":DNF},
-      {"pos":26,"rider":"Leo RAMMERSDORFER","points":DNF},
-      {"pos":27,"rider":"Ruche MOODLEY","points":DNF},
+      {"pos":21,"rider":"Joel ESTEBAN","points":"DNF"},
+      {"pos":22,"rider":"Matteo BERTELLE","points":"DNF"},
+      {"pos":23,"rider":"Jesus RIOS","points":"DNF"},
+      {"pos":24,"rider":"Adrian FERNANDEZ","points":"DNF"},
+      {"pos":25,"rider":"Marcos URIARTE","points":"DNF"},
+      {"pos":26,"rider":"Leo RAMMERSDORFER","points":"DNF"},
+      {"pos":27,"rider":"Ruche MOODLEY","points":"DNF"},
     ]
   },
   {
