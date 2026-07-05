@@ -1,24 +1,17 @@
 const express = require("express");
-const fs = require("fs-extra");
+const fs = require("fs");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const read = (f) => {
+app.get("/", (req, res) => res.json({ status: "OK" }));
+
+app.get("/standings", (req, res) => {
   try {
-    return JSON.parse(fs.readFileSync(f, "utf8"));
+    const data = JSON.parse(fs.readFileSync("./standings.json", "utf8"));
+    res.json(data);
   } catch (e) {
-    return { error: `File ${f} not found` };
+    res.status(500).json({ error: e.message });
   }
-};
-
-app.get("/", (req, res) => res.json({ status: "Moto3 READY" }));
-
-app.get("/race", (req, res) => res.json(read("./calendar.json")));
-app.get("/riders", (req, res) => res.json(read("./riders_2026.json")));
-app.get("/standings", (req, res) => res.json(read("./standings.json")));
-
-app.get("/results/:session", (req, res) => {
-  res.json(read("./standings.json"));
 });
 
-app.listen(PORT, () => console.log(`Server running on ${PORT}`));
+app.listen(PORT, () => console.log("Server running"));
