@@ -1,5 +1,5 @@
 const express = require("express");
-const fs = require("fs");
+const fs = require("fs-extra");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -12,48 +12,45 @@ const read = (f) => {
   }
 };
 
-// Root
 app.get("/", (req, res) => {
   res.json({ status: "Moto3 FULL AUTO SYSTEM READY" });
 });
 
-// Calendar
+/* CALENDAR */
 app.get("/race", (req, res) => {
   res.json(read("./calendar.json"));
 });
 
-// Riders
+/* RIDERS */
 app.get("/riders", (req, res) => {
   res.json(read("./riders_2026.json"));
 });
 
-// Standings (sementara pakai standings-generator.js kalau ada)
+/* STANDINGS */
 app.get("/standings", (req, res) => {
   try {
-    // Kalau ada file standings.json
     if (fs.existsSync("./standings.json")) {
       res.json(read("./standings.json"));
-    } 
-    // Kalau tidak, coba generate
-    else if (fs.existsSync("./standings-generator.js")) {
-      const { generateStandings } = require("./standings-generator.js");
-      const data = generateStandings ? generateStandings() : { message: "Standings generator ready" };
-      res.json(data);
     } else {
-      res.json({ message: "Standings belum tersedia" });
+      res.json({ message: "Standings belum dibuat. Jalankan standings-generator.js" });
     }
   } catch (e) {
     res.status(500).json({ error: e.message });
   }
 });
 
-// Results per session (baru)
-app.get("/results", (req, res) => {
+/* RESULTS PER SESSION */
+app.get("/results/:session", (req, res) => {
+  const session = req.params.session.toLowerCase();
+  console.log(`[REQUEST] Hasil session: ${session}`);
+
   try {
     if (fs.existsSync("./results.json")) {
-      res.json(read("./results.json"));
+      const allResults = read("./results.json");
+      // Untuk sementara tampilkan semua data (bisa difilter nanti)
+      res.json(allResults);
     } else {
-      res.json({ message: "Results belum tersedia. Jalankan scraper dulu." });
+      res.json({ message: "results.json belum ada. Jalankan scraper.js" });
     }
   } catch (e) {
     res.status(500).json({ error: e.message });
@@ -61,5 +58,5 @@ app.get("/results", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Moto3 system running on port ${PORT}`);
+  console.log(`🚀 Moto3 system running on port ${PORT}`);
 });
