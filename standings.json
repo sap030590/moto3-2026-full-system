@@ -26,11 +26,11 @@
       {"pos":21,"rider":"Zen MITANI","points":0},
       {"pos":22,"rider":"Ruche MOODLEY","points":0},
       {"pos":23,"rider":"Nicola CARRARO","points":0},
-      {"pos":DNF,"rider":"Matteo BERTELLE","points":"0"},
-      {"pos":DNF,"rider":"Adrian FERNANDEZ","points":"0"},
-      {"pos":DNF,"rider":"Marcos URIARTE","points":"0"},
-      {"pos":DNF,"rider":"Leo RAMMERSDORFER","points":"0"},
-      {"pos":DNF,"rider":"Cormac BUCHANAN","points":"0"}
+      {"pos":"DNF","rider":"Matteo BERTELLE","points":"0"},
+      {"pos":"DNF","rider":"Adrian FERNANDEZ","points":"0"},
+      {"pos":"DNF","rider":"Marcos URIARTE","points":"0"},
+      {"pos":"DNF","rider":"Leo RAMMERSDORFER","points":"0"},
+      {"pos":"DNF","rider":"Cormac BUCHANAN","points":"0"}
     ]
   },
 
@@ -55,16 +55,16 @@
       {"pos":15,"rider":"Zen MITANI","points":1},
       {"pos":16,"rider":"Cormac BUCHANAN","points":0},
       {"pos":17,"rider":"Nicola CARRARO","points":0},
-      {"pos":DNF,"rider":"David ALMANSA","points":"0"},
-      {"pos":DNF,"rider":"David MUÑOZ","points":"0"},
-      {"pos":DNF,"rider":"Scott OGDEN","points":"0"},
-      {"pos":DNF,"rider":"Joel ESTEBAN","points":"0"},
-      {"pos":DNF,"rider":"Matteo BERTELLE","points":"0"},
-      {"pos":DNF,"rider":"Jesus RIOS","points":"0"},
-      {"pos":DNF,"rider":"Adrian FERNANDEZ","points":"0"},
-      {"pos":DNF,"rider":"Marcos URIARTE","points":"0"},
-      {"pos":DNF,"rider":"Leo RAMMERSDORFER","points":"0"},
-      {"pos":DNF,"rider":"Ruche MOODLEY","points":"0"}
+      {"pos":"DNF","rider":"David ALMANSA","points":"0"},
+      {"pos":"DNF","rider":"David MUÑOZ","points":"0"},
+      {"pos":"DNF","rider":"Scott OGDEN","points":"0"},
+      {"pos":"DNF","rider":"Joel ESTEBAN","points":"0"},
+      {"pos":"DNF","rider":"Matteo BERTELLE","points":"0"},
+      {"pos":"DNF","rider":"Jesus RIOS","points":"0"},
+      {"pos":"DNF","rider":"Adrian FERNANDEZ","points":"0"},
+      {"pos":"DNF","rider":"Marcos URIARTE","points":"0"},
+      {"pos":"DNF","rider":"Leo RAMMERSDORFER","points":"0"},
+      {"pos":"DNF","rider":"Ruche MOODLEY","points":"0"}
     ]
   },
   {
