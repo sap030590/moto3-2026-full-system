@@ -70,78 +70,6 @@
     ]
   },
   {
-    "event": "Thailand",
-    "round": 1,
-    "standings": [
-      {"pos":1,"rider":"David ALMANSA","points":25},
-      {"pos":2,"rider":"Maximo QUILES","points":20},
-      {"pos":3,"rider":"Valentin PERRONE","points":16},
-      {"pos":4,"rider":"Alvaro CARPE","points":13},
-      {"pos":5,"rider":"Veda PRATAMA","points":11},
-      {"pos":6,"rider":"Brian URIARTE","points":10},
-      {"pos":7,"rider":"Marco MORELLI","points":9},
-      {"pos":8,"rider":"Joel ESTEBAN","points":8},
-      {"pos":9,"rider":"David MUÑOZ","points":7},
-      {"pos":10,"rider":"Casey O'GORMAN","points":6},
-      {"pos":11,"rider":"Scott OGDEN","points":5},
-      {"pos":12,"rider":"Adrian CRUCES","points":4},
-      {"pos":13,"rider":"Joel KELSO","points":3},
-      {"pos":14,"rider":"Eddie O'SHEA","points":2},
-
-      {"pos":15,"rider":"Hakim DANISH","points":0},
-      {"pos":16,"rider":"Guido PINI","points":0},
-      {"pos":17,"rider":"Rico SALMELA","points":0},
-      {"pos":18,"rider":"Jesus RIOS","points":0},
-      {"pos":19,"rider":"Ryusei YAMANAKA","points":0},
-      {"pos":20,"rider":"Zen MITANI","points":0},
-      {"pos":21,"rider":"Ruche MOODLEY","points":0},
-      {"pos":22,"rider":"Nicola CARRARO","points":0},
-
-      {"pos":23,"rider":"Matteo BERTELLE","points":"DNF"},
-      {"pos":24,"rider":"Adrian FERNANDEZ","points":"DNF"},
-      {"pos":25,"rider":"Marcos URIARTE","points":"DNF"},
-      {"pos":26,"rider":"Leo RAMMERSDORFER","points":"DNF"},
-      {"pos":27,"rider":"Cormac BUCHANAN","points":"DNF"}
-    ]
-  },
-
-  {
-    "event": "Brazil",
-    "round": 2,
-    "standings": [
-      {"pos":1,"rider":"Maximo QUILES","points":25},
-      {"pos":2,"rider":"Marco MORELLI","points":20},
-      {"pos":3,"rider":"Veda PRATAMA","points":16},
-      {"pos":4,"rider":"Alvaro CARPE","points":13},
-      {"pos":5,"rider":"Guido PINI","points":11},
-      {"pos":6,"rider":"Rico SALMELA","points":10},
-      {"pos":7,"rider":"Valentin PERRONE","points":9},
-      {"pos":8,"rider":"Casey O'GORMAN","points":8},
-      {"pos":9,"rider":"Hakim DANISH","points":7},
-      {"pos":10,"rider":"Brian URIARTE","points":6},
-      {"pos":11,"rider":"Joel KELSO","points":5},
-      {"pos":12,"rider":"Adrian CRUCES","points":4},
-      {"pos":13,"rider":"Ryusei YAMANAKA","points":3},
-      {"pos":14,"rider":"Scott OGDEN","points":3},
-      {"pos":15,"rider":"Eddie O'SHEA","points":2},
-      {"pos":16,"rider":"Zen MITANI","points":1},
-
-      {"pos":17,"rider":"Cormac BUCHANAN","points":0},
-      {"pos":18,"rider":"Nicola CARRARO","points":0},
-
-      {"pos":19,"rider":"David ALMANSA","points":"DNF"},
-      {"pos":20,"rider":"David MUÑOZ","points":"DNF"},
-      {"pos":21,"rider":"Joel ESTEBAN","points":"DNF"},
-      {"pos":22,"rider":"Matteo BERTELLE","points":"DNF"},
-      {"pos":23,"rider":"Jesus RIOS","points":"DNF"},
-      {"pos":24,"rider":"Adrian FERNANDEZ","points":"DNF"},
-      {"pos":25,"rider":"Marcos URIARTE","points":"DNF"},
-      {"pos":26,"rider":"Leo RAMMERSDORFER","points":"DNF"},
-      {"pos":27,"rider":"Ruche MOODLEY","points":"DNF"}
-    ]
-  },
-
-  {
     "event": "USA",
     "round": 3,
     "standings": [
@@ -393,7 +321,7 @@
   },
 
   {
-    "event": "Netherland",
+    "event": "Netherlands",
     "round": 10,
     "standings": [
       {"pos":1,"rider":"Maximo QUILES","points":25},
