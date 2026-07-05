@@ -28,8 +28,7 @@
       {"pos":23,"rider":"Nicola CARRARO","points":0},
       {"pos":24,"rider":"Ryusei YAMANAKA","points":0},
       {"pos":"DNF","rider":"Matteo BERTELLE","points":0},
-      {"pos":"DNF","rider":"Cormac BUCHANAN","points":0},
-      {"pos":"DNF","rider":"Marcos URIARTE","points":0}
+      {"pos":"DNF","rider":"Cormac BUCHANAN","points":0}
     ]
   },
   {
@@ -54,7 +53,6 @@
       {"pos":16,"rider":"Zen MITANI","points":0},
       {"pos":17,"rider":"Nicola CARRARO","points":0},
       {"pos":18,"rider":"Cormac BUCHANAN","points":0},
-      {"pos":19,"rider":"Marcos URIARTE","points":0},
       {"pos":"DNF","rider":"David ALMANSA","points":0},
       {"pos":"DNF","rider":"Scott OGDEN","points":0},
       {"pos":"DNF","rider":"Joel ESTEBAN","points":0},
@@ -86,14 +84,14 @@
       {"pos":17,"rider":"Leo RAMMERSTORFER","points":0},
       {"pos":18,"rider":"Cormac BUCHANAN","points":0},
       {"pos":19,"rider":"Nicola CARRARO","points":0},
-      {"pos":20,"rider":"Joel ESTEBAN","points":0},
-      {"pos":21,"rider":"Casey O'GORMAN","points":0},
-      {"pos":22,"rider":"Joel KELSO","points":0},
-      {"pos":23,"rider":"Adrian FERNANDEZ","points":0},
-      {"pos":24,"rider":"Zen MITANI","points":0},
       {"pos":"DNF","rider":"David ALMANSA","points":0},
       {"pos":"DNF","rider":"Veda PRATAMA","points":0},
-      {"pos":"DNF","rider":"David MUÑOZ","points":0}
+      {"pos":"DNF","rider":"David MUÑOZ","points":0},
+      {"pos":"DNF","rider":"Joel ESTEBAN","points":0},
+      {"pos":"DNF","rider":"Casey O'GORMAN","points":0},
+      {"pos":"DNF","rider":"Joel KELSO","points":0},
+      {"pos":"DNF","rider":"Adrian FERNANDEZ","points":0},
+      {"pos":"DNF","rider":"Zen MITANI","points":0}
     ]
   },
   {
@@ -121,12 +119,12 @@
       {"pos":19,"rider":"Cormac BUCHANAN","points":0},
       {"pos":20,"rider":"Zen MITANI","points":0},
       {"pos":21,"rider":"Ruche MOODLEY","points":0},
-      {"pos":22,"rider":"Leo RAMMERSTORFER","points":0},
-      {"pos":23,"rider":"Nicola CARRARO","points":0},
       {"pos":"DNF","rider":"Guido PINI","points":0},
       {"pos":"DNF","rider":"Matteo BERTELLE","points":0},
       {"pos":"DNF","rider":"Adrian FERNANDEZ","points":0},
-      {"pos":"DNF","rider":"Marcos URIARTE","points":0}
+      {"pos":"DNF","rider":"Marcos URIARTE","points":0},
+      {"pos":"DNF","rider":"Leo RAMMERSTORFER","points":0},
+      {"pos":"DNF","rider":"Nicola CARRARO","points":0}
     ]
   },
   {
@@ -150,8 +148,6 @@
       {"pos":15,"rider":"Zen MITANI","points":1},
       {"pos":16,"rider":"David MUÑOZ","points":0},
       {"pos":17,"rider":"Ruche MOODLEY","points":0},
-      {"pos":18,"rider":"Marcos URIARTE","points":0},
-      {"pos":19,"rider":"Nicola CARRARO","points":0},
       {"pos":"DNF","rider":"Alvaro CARPE","points":0},
       {"pos":"DNF","rider":"Rico SALMELA","points":0},
       {"pos":"DNF","rider":"Casey O'GORMAN","points":0},
@@ -159,7 +155,9 @@
       {"pos":"DNF","rider":"Jesus RIOS","points":0},
       {"pos":"DNF","rider":"Adrian FERNANDEZ","points":0},
       {"pos":"DNF","rider":"Scott OGDEN","points":0},
-      {"pos":"DNF","rider":"Cormac BUCHANAN","points":0}
+      {"pos":"DNF","rider":"Marcos URIARTE","points":0},
+      {"pos":"DNF","rider":"Cormac BUCHANAN","points":0},
+      {"pos":"DNF","rider":"Nicola CARRARO","points":0}
     ]
   },
   {
@@ -188,8 +186,8 @@
       {"pos":20,"rider":"Cormac BUCHANAN","points":0},
       {"pos":21,"rider":"Zen MITANI","points":0},
       {"pos":22,"rider":"Ruche MOODLEY","points":0},
-      {"pos":23,"rider":"Nicola CARRARO","points":0},
-      {"pos":"DNF","rider":"Jesus RIOS","points":0}
+      {"pos":"DNF","rider":"Jesus RIOS","points":0},
+      {"pos":"DNF","rider":"Nicola CARRARO","points":0}
     ]
   },
   {
@@ -219,9 +217,9 @@
       {"pos":21,"rider":"Zen MITANI","points":0},
       {"pos":22,"rider":"Ruche MOODLEY","points":0},
       {"pos":23,"rider":"Nicola CARRARO","points":0},
-      {"pos":24,"rider":"David ALMANSA","points":0},
-      {"pos":25,"rider":"Rico SALMELA","points":0},
-      {"pos":26,"rider":"Casey O'GORMAN","points":0},
+      {"pos":"DNF","rider":"David ALMANSA","points":0},
+      {"pos":"DNF","rider":"Rico SALMELA","points":0},
+      {"pos":"DNF","rider":"Casey O'GORMAN","points":0},
       {"pos":"DNF","rider":"Marcos URIARTE","points":0}
     ]
   },
@@ -249,13 +247,13 @@
       {"pos":18,"rider":"Ryusei YAMANAKA","points":0},
       {"pos":19,"rider":"Leo RAMMERSTORFER","points":0},
       {"pos":20,"rider":"Zen MITANI","points":0},
-      {"pos":21,"rider":"Marcos URIARTE","points":0},
-      {"pos":22,"rider":"Nicola CARRARO","points":0},
       {"pos":"DNF","rider":"Hakim DANISH","points":0},
       {"pos":"DNF","rider":"Valentin PERRONE","points":0},
       {"pos":"DNF","rider":"David MUÑOZ","points":0},
       {"pos":"DNF","rider":"Guido PINI","points":0},
-      {"pos":"DNF","rider":"Ruche MOODLEY","points":0}
+      {"pos":"DNF","rider":"Marcos URIARTE","points":0},
+      {"pos":"DNF","rider":"Ruche MOODLEY","points":0},
+      {"pos":"DNF","rider":"Nicola CARRARO","points":0}
     ]
   },
   {
@@ -282,13 +280,13 @@
       {"pos":18,"rider":"Cormac BUCHANAN","points":0},
       {"pos":19,"rider":"Zen MITANI","points":0},
       {"pos":20,"rider":"Ruche MOODLEY","points":0},
-      {"pos":21,"rider":"Leo RAMMERSTORFER","points":0},
-      {"pos":22,"rider":"Nicola CARRARO","points":0},
       {"pos":"DNF","rider":"David MUÑOZ","points":0},
       {"pos":"DNF","rider":"Joel ESTEBAN","points":0},
       {"pos":"DNF","rider":"Rico SALMELA","points":0},
       {"pos":"DNF","rider":"Casey O'GORMAN","points":0},
-      {"pos":"DNF","rider":"Eddie O'SHEA","points":0}
+      {"pos":"DNF","rider":"Eddie O'SHEA","points":0},
+      {"pos":"DNF","rider":"Leo RAMMERSTORFER","points":0},
+      {"pos":"DNF","rider":"Nicola CARRARO","points":0}
     ]
   },
   {
@@ -314,14 +312,14 @@
       {"pos":17,"rider":"Scott OGDEN","points":0},
       {"pos":18,"rider":"Leo RAMMERSTORFER","points":0},
       {"pos":19,"rider":"Nicola CARRARO","points":0},
-      {"pos":20,"rider":"Marcos URIARTE","points":0},
-      {"pos":21,"rider":"Cormac BUCHANAN","points":0},
-      {"pos":22,"rider":"Zen MITANI","points":0},
-      {"pos":23,"rider":"Ruche MOODLEY","points":0},
       {"pos":"DNF","rider":"Alvaro CARPE","points":0},
       {"pos":"DNF","rider":"Veda PRATAMA","points":0},
       {"pos":"DNF","rider":"David MUÑOZ","points":0},
-      {"pos":"DNF","rider":"Adrian CRUCES","points":0}
+      {"pos":"DNF","rider":"Adrian CRUCES","points":0},
+      {"pos":"DNF","rider":"Marcos URIARTE","points":0},
+      {"pos":"DNF","rider":"Cormac BUCHANAN","points":0},
+      {"pos":"DNF","rider":"Zen MITANI","points":0},
+      {"pos":"DNF","rider":"Ruche MOODLEY","points":0}
     ]
   }
 ]
